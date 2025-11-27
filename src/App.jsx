@@ -7,6 +7,7 @@ import MobileApp from './Components/Pages/MobileApp'
 import ContactUs from './Components/Pages/ContactUs'
 import ECommerce from './Components/Pages/ECommerce'
 import Videos from './Components/Pages/Videos'
+import SignUp from './Components/Pages/SignUp'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/mobile-app" element={<MobileApp />} />
       <Route path="/videos" element={<Videos />} />
       <Route path="/contact-us" element={<ContactUs />} />
+      <Route path="/sign-up" element={<SignUp />} />
     </Routes>
   )
 }

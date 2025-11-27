@@ -153,15 +153,42 @@ const Hero = () => {
               alt="Live control tower dashboard preview"
               className="relative h-full min-h-[560px] w-full object-cover transition-transform duration-700 sm:min-h-[600px] lg:min-h-[680px] hover:scale-105"
             />
-            <div
-              className={`absolute left-8 top-8 rounded-full border border-[#f6c58f] bg-white/90 px-5 py-2 text-xs font-semibold text-[#0f2d55] shadow-soft transition-all duration-500 hover:scale-110 hover:bg-white ${
-                isVisible
-                  ? 'translate-y-0 opacity-100'
-                  : '-translate-y-4 opacity-0'
-              }`}
-              style={{ transitionDelay: '600ms' }}
-            >
-              ★ Live alerts on mobile
+            <div className="absolute left-8 top-8 flex flex-col gap-2">
+              <div
+                className={`rounded-full border border-[#f6c58f] bg-white/90 px-5 py-2 text-xs font-semibold text-[#0f2d55] shadow-soft transition-all duration-500 hover:scale-110 hover:bg-white ${
+                  isVisible
+                    ? 'translate-y-0 opacity-100'
+                    : '-translate-y-4 opacity-0'
+                }`}
+                style={{ transitionDelay: '600ms' }}
+              >
+                ★ Live alerts on mobile
+              </div>
+              <a
+                href="tel:+9194208447251"
+                className={`flex items-center gap-2 rounded-full border border-[#f6c58f] bg-white/90 px-5 py-2 text-xs font-semibold text-[#0f2d55] shadow-soft transition-all duration-500 hover:scale-110 hover:bg-white hover:text-[#f16338] ${
+                  isVisible
+                    ? 'translate-y-0 opacity-100'
+                    : '-translate-y-4 opacity-0'
+                }`}
+                style={{ transitionDelay: '700ms' }}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4 text-[#f16338]"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                  />
+                </svg>
+                <span>+91-94208447251</span>
+              </a>
             </div>
           </div>
         </div>

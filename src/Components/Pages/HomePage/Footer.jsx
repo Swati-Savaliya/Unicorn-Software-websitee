@@ -120,8 +120,8 @@ const Footer = () => {
                   </div>
                   <div className="text-sm text-white">
                     <p className="font-semibold text-yellow-400 mb-1">Sales:</p>
-                    <p className="text-white/90">+91 956196 8585</p>
-                    <p className="text-white/90">+91 879302 8485</p>
+                    <p className="text-white/90">+91-94208447251</p>
+                    <p className="text-white/90">+91-94208447251</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 group hover:translate-x-2 transition-transform duration-300">
@@ -142,8 +142,8 @@ const Footer = () => {
                   </div>
                   <div className="text-sm text-white">
                     <p className="font-semibold text-yellow-400 mb-1">Support:</p>
-                    <p className="text-white/90">+91 738578 6585</p>
-                    <p className="text-white/90">+91 855195 8585</p>
+                    <p className="text-white/90">+91-94208447251</p>
+                    <p className="text-white/90">+91-94208447251</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 group hover:translate-x-2 transition-transform duration-300">
@@ -164,7 +164,7 @@ const Footer = () => {
                   </div>
                   <div className="text-sm text-white">
                     <p className="font-semibold text-yellow-400 mb-1">Sr. Operations:</p>
-                    <p className="text-white/90">+91 775781 8482</p>
+                    <p className="text-white/90">+91-94208447251</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 group hover:translate-x-2 transition-transform duration-300">
@@ -185,7 +185,7 @@ const Footer = () => {
                   </div>
                   <div className="text-sm text-white">
                     <p className="font-semibold text-yellow-400 mb-1">Email:</p>
-                    <p className="text-white/90">info@onlinemunim.com</p>
+                    <p className="text-white/90">info@unicornsoftware.com</p>
                   </div>
                 </div>
               </div>
